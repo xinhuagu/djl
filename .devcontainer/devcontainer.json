@@ -3,7 +3,7 @@
     "build": {
         "dockerfile": "Dockerfile",
         "args": {
-            "VARIANT": "11",
+            "VARIANT": "dev-17",
             "INSTALL_MAVEN": "false",
             "MAVEN_VERSION": "3.6.3",
             "INSTALL_GRADLE": "false",

@@ -1,5 +1,5 @@
 ARG VARIANT=11
-FROM mcr.microsoft.com/vscode/devcontainers/java:${VARIANT}
+FROM mcr.microsoft.com/devcontainers/java:${VARIANT}
 
 # Allow to use the VARIANT after FROM
 ARG VARIANT
